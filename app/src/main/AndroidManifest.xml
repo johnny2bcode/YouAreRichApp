@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.i_am_rich_2022">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/you_are_rich"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/you_are_rich_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.I_am_rich_2022">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
